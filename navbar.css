@@ -2,6 +2,55 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     outline: none;
     font-family: 'Roboto', sans-serif;    
+}
+a{
+    text-decoration: none;
+    padding: 0 0.7rem;
+}
+a:hover{
+    color: rgb(233, 103, 103);
+}
+/*custom css*/
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("navbar image/nav.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    font-size: 2rem;
+    padding-left: 5rem;
+    font-weight: 500;
+
+}
+.navbar{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-menu{
+    display: inline-block;
+    padding-right: 5rem;
+    position: relative;
+     
+}
+.dropdown-menu .dropdown{
+    display: none;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+     
+}
+.dropdown-menu .dropdown a{
+    display: block;
+    padding: 0.3rem 0;
+}
+.dropdown-menu:hover .dropdown{
+    display: block;
 }

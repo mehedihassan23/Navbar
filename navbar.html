@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
+
+    <!--Custom css link-->
     <link rel="stylesheet" href="navbar.css">
 
     <!--Google Fonts Link-->
@@ -14,7 +16,23 @@
 
 </head>
 <body>
-    <h1>Navbar</h1>
-    <i class="fa-brands fa-facebook"></i>
+    <div class="hero">
+        <nav class="navbar">
+            <div class="logo">Nav <span>bar</span></div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Skill</a>
+                <a href="#">Contact</a>
+                <div class="dropdown-menu">
+                    <a href="#">About me<i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown">
+                        <a href="#">My Tutorial</a>
+                        <a href="#">My Hobby</a>
+                        <a href="#">My University</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
 </body>
 </html>
